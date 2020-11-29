@@ -30,7 +30,7 @@ try {
     $mail->addReplyTo($_POST['email'], $_POST['name']);
 
     // Content
-    $mail->Subject = "Landing Page Moshe Project";
+    $mail->Subject = "Landing Page Midbara Yazamut";
     $mail->Body    = <<<EOT
     Name: {$_POST['name']}
     Phone: {$_POST['phone']}
